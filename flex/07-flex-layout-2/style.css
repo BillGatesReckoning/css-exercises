@@ -12,7 +12,12 @@ body {
   color: white;
   flex: 1;
   display: flex;
-  justify-content: flex-start;
+  align-items: center;
+  text-align: start;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: 900;
 }
 
 .footer {
@@ -23,10 +28,10 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  min-width: 200px;
   background: royalblue;
   box-sizing: border-box;
-  flex: 2;
+  flex: 2 0 0;
 }
 
 .card {
@@ -35,7 +40,7 @@ body {
   border-radius: 4px;
   padding: 16px;
   font-size: 12px;
-  flex: 0 1 300px;
+  flex: 0 1 250px;
 }
 
 .content {
