@@ -16,8 +16,9 @@ body {
   text-align: start;
   padding: 8px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
+  font-size: 32px;
   font-weight: 900;
+  padding-left: 16px;
 }
 
 .footer {
@@ -25,6 +26,9 @@ body {
   background: #eee;
   color: darkmagenta;
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -55,4 +59,20 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 32px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 8px;
+}
+
+li {
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
 }
